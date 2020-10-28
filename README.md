@@ -34,14 +34,19 @@ Fitur yang ada pada Aplikasi:
 
 ======================================================================================================================
 
+
 Laporan Proggres Projek Mobile:
 1. 7 Oktober 2020 
     : Pengumpulan  Repository Github dan Judul Projek 
 2. 21 Oktober 2020 - Deadline ( 28 Oktober 2020 ) 
     : Penerapan Core Widget dan Root Widget 
-        Core Widget : Menggunakan Beberapa Attribute Container dll.
-        Root Widger : Menggilangkan beberapa bagian seperti Tulisan Debug dan Root dasar lainnya.
-    Yang sudah Terlaksana 
+	Core Widget : Menggunakan Beberapa Attribute Container dll.
+	Root Widger : Menggilangkan beberapa bagian seperti Tulisan Debug dan Root dasar lainnya.
+    
+    Yang sudah dikerjakan: 
+	1. Login masuk aplikasi
+	2. Tampilan Nama Kelompok
+	3. Navigator  
 
 
 
