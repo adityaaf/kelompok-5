@@ -4,8 +4,11 @@ Sistem berupa Mobile Android " Aplikasi Independent of Woman (IOW) Sebagai Platf
 Bekerja sama dengan Dinas Pemberdayaan Perempuan, Perlindungan Anak dan Kependudukan.
  
 Nama Kelompok 5:
+
 1.Aditya Ari Fikri          (182410102002)
+
 2.Galih Siswo Hidayatullah  (182410102018)
+
 3.Dimas Wahyu Rossevin      (182410102067)
 
 Judul:
