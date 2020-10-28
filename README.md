@@ -12,6 +12,7 @@ Judul:
 " Setara.id - Media Edukasi dan Konsultasi Sebagai Penunjang Kesetaraan Gender  "
 
 Fitur yang ada pada Aplikasi: 
+
 1.Beranda
    -. Berita 
    -. Event 
