@@ -1,16 +1,50 @@
-# flutter_app
+SGGS 5 " KESETARAAN GENDER " 
 
-A new Flutter application.
+Sistem berupa Mobile Android
+Bekerja sama dengan Dinas Pemberdayaan Perempuan, Perlindungan Anak dan Kependudukan.
+ 
+Nama Kelompok 5:
+1.Aditya Ari Fikri          (182410102002)
+2.Galih Siswo Hidayatullah  (182410102018)
+3.Dimas Wahyu Rossevin      (182410102067)
 
-## Getting Started
+Judul:
+" Aplikasi Independent of Woman (IOW) Sebagai Platform Pemberdayaan Perempuan "
 
-This project is a starting point for a Flutter application.
+Fitur yang ada pada Aplikasi: 
+1.Beranda
+   -. Berita 
+   -. Event 
+   -. Lapor / Konsultasi 
+     
+2. Berita 
+   :  Berisikan Berita seputar apa yang terjadi dengan Kesetaraan gender 
+       Entah Berita Daerah dll yang mencakup seputar kesetaraan gender
 
-A few resources to get you started if this is your first Flutter project:
+3. Event
+   :  Berisikan Event yang akan dilaksanakan atau sudah terlaksana untuk menunjang Kesetaraan Gender
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+4. Laporan / Konsultasi 
+   : Mengisi Form Pengaduan /  Konsultasi
+         1.  Mengisi Nama
+         2.  Email 
+	       3.  No Telfon / Wa
+         4.  Penjabaran / Deskripsikan Pengaduan
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+======================================================================================================================
+
+Laporan Proggres Projek Mobile:
+1. 7 Oktober 2020 
+    : Pengumpulan  Repository Github dan Judul Projek 
+2. 21 Oktober 2020 - Deadline ( 28 Oktober 2020 ) 
+    : Penerapan Core Widget dan Root Widget 
+        Core Widget : Menggunakan Beberapa Attribute Container dll.
+        Root Widger : Menggilangkan beberapa bagian seperti Tulisan Debug dan Root dasar lainnya.
+    Yang sudah Terlaksana 
+
+
+
+
+ 
+   
