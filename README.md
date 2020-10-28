@@ -28,7 +28,7 @@ Fitur yang ada pada Aplikasi:
    : Mengisi Form Pengaduan /  Konsultasi
          1.  Mengisi Nama
          2.  Email 
-	       3.  No Telfon / Wa
+	 3.  No Telfon / Wa
          4.  Penjabaran / Deskripsikan Pengaduan
 
 
