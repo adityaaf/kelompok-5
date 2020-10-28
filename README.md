@@ -1,6 +1,6 @@
 SGGS 5 " KESETARAAN GENDER " 
 
-Sistem berupa Mobile Android
+Sistem berupa Mobile Android " Aplikasi Independent of Woman (IOW) Sebagai Platform Pemberdayaan Perempuan "
 Bekerja sama dengan Dinas Pemberdayaan Perempuan, Perlindungan Anak dan Kependudukan.
  
 Nama Kelompok 5:
@@ -9,7 +9,7 @@ Nama Kelompok 5:
 3.Dimas Wahyu Rossevin      (182410102067)
 
 Judul:
-" Aplikasi Independent of Woman (IOW) Sebagai Platform Pemberdayaan Perempuan "
+" Setara.id - Media Edukasi dan Konsultasi Sebagai Penunjang Kesetaraan Gender  "
 
 Fitur yang ada pada Aplikasi: 
 1.Beranda
