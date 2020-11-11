@@ -64,6 +64,14 @@ Laporan Proggres Projek Mobile:
 	-- Memberikan Gambar
 	-- Menerapkan custom source code
 	-- Menerapkan statles widget dan statefull widget
+	
+      Yang sudah dikerjakan: 
+	1. Login masuk aplikasi
+	2. Tampilan Nama Kelompok
+	3. Navigator perpindahan halaman menggunakan Push dan Pop
+	4. Menambahkan Gambar dan memberikan Backgroud pada setiap halaman
+	5. Menambahkan menu dengan memberi Icon yang nantinya dapat berfungsi dan berpidah page apabila ditekan 
+	6. Melakukan penerapan apa yang diberikan seputar Stateles Widget dan Statefull Widget
 
 
  
