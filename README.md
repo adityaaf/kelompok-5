@@ -56,7 +56,14 @@ Laporan Proggres Projek Mobile:
 	2. Tampilan Nama Kelompok
 	3. Navigator  
 
-
+3. Menerapkan apa yang diberikan oleh dosen mengenai
+	-- Perpindahan halaman
+	-- Membuat setiap page
+	-- Membuat cutom pada source code
+	-- Menambahkan gambar
+	-- Memberikan Gambar
+	-- Menerapkan custom source code
+	-- Menerapkan statles widget dan statefull widget
 
 
  
