@@ -32,7 +32,7 @@ Fitur yang ada pada Aplikasi:
    : Mengisi Form Pengaduan /  Konsultasi
          1.  Mengisi Nama
          2.  Email 
-	 3.  No Telfon / Whatsapp
+	 3.  No Telpon / Whatsapp
          4.  Penjabaran / Deskripsikan Pengaduan
 
 
