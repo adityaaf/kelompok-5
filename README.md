@@ -1,78 +1,16 @@
-SGGS 5 " KESETARAAN GENDER " 
+# tugas_uts
 
-Sistem berupa Mobile Android " Aplikasi Independent of Woman (IOW) Sebagai Platform Pemberdayaan Perempuan "
-Bekerja sama dengan Dinas Pemberdayaan Perempuan, Perlindungan Anak dan Kependudukan.
- 
-Nama Kelompok 5:
+A new Flutter application.
 
-1.Aditya Ari Fikri          (182410102002)
+## Getting Started
 
-2.Galih Siswo Hidayatullah  (182410102018)
+This project is a starting point for a Flutter application.
 
-3.Dimas Wahyu Rossevin      (182410102067)
+A few resources to get you started if this is your first Flutter project:
 
-Judul:
-" Setara.id - Media Edukasi dan Konsultasi Sebagai Penunjang Kesetaraan Gender  "
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-Fitur yang ada pada Aplikasi: 
-
-1.Beranda
-   -. Berita 
-   -. Event 
-   -. Lapor / Konsultasi 
-     
-2. Berita 
-   :  Berisikan Berita seputar apa yang terjadi dengan Kesetaraan gender 
-       Entah Berita Daerah dll yang mencakup seputar kesetaraan gender
-
-3. Event
-   :  Berisikan Event yang akan dilaksanakan atau sudah terlaksana untuk menunjang Kesetaraan Gender
-
-4. Laporan / Konsultasi 
-   : Mengisi Form Pengaduan /  Konsultasi
-         1.  Mengisi Nama
-         2.  Email 
-	 3.  No Telpon / Whatsapp
-         4.  Penjabaran / Deskripsikan Pengaduan
-
-
-======================================================================================================================
-
-
-Laporan Proggres Projek Mobile:
-1. 7 Oktober 2020 
-    : Pengumpulan  Repository Github dan Judul Projek 
-    
-2. 21 Oktober 2020 - Deadline ( 28 Oktober 2020 ) 
-    
-    : Penerapan Core Widget dan Root Widget 
-	
-	Core Widget : Menggunakan Beberapa Attribute Container dll.
-	
-	Root Widger : Menggilangkan beberapa bagian seperti Tulisan Debug dan Root dasar lainnya.
-    
-    Yang sudah dikerjakan: 
-	1. Login masuk aplikasi
-	2. Tampilan Nama Kelompok
-	3. Navigator  
-
-3. Menerapkan apa yang diberikan oleh dosen mengenai
-	-- Perpindahan halaman
-	-- Membuat setiap page
-	-- Membuat cutom pada source code
-	-- Menambahkan gambar
-	-- Memberikan Gambar
-	-- Menerapkan custom source code
-	-- Menerapkan statles widget dan statefull widget
-	
-      Yang sudah dikerjakan: 
-	1. Login masuk aplikasi
-	2. Tampilan Nama Kelompok
-	3. Navigator perpindahan halaman menggunakan Push dan Pop
-	4. Menambahkan Gambar dan memberikan Backgroud pada setiap halaman
-	5. Menambahkan menu dengan memberi Icon yang nantinya dapat berfungsi dan berpidah page apabila ditekan 
-	6. Melakukan penerapan apa yang diberikan seputar Stateles Widget dan Statefull Widget
-
-
- 
-   
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
