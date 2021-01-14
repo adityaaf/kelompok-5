@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:tugas_uts/buttom_bar.dart';
 import 'package:tugas_uts/dashboard.dart';
+<<<<<<< HEAD
 import 'package:tugas_uts/penyuluhan.dart';
 import 'package:tugas_uts/sosialisasi.dart';
 import 'package:tugas_uts/talkshow.dart';
 import 'package:tugas_uts/waves.dart';
+=======
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
 
 class Event extends StatefulWidget {
   @override
@@ -18,6 +21,7 @@ class _EventState extends State<Event> {
       backgroundColor: Color(0xFFF9EFEB),
       body: ListView(
         children: <Widget>[
+<<<<<<< HEAD
           Stack(
             children: <Widget>[
               Container(
@@ -270,3 +274,57 @@ class _EventState extends State<Event> {
     }
   }
 }
+=======
+      Stack(
+      children: <Widget>[
+        Container(
+        height: 120.0,
+        decoration: BoxDecoration(
+            borderRadius:
+            BorderRadius.only(bottomRight: Radius.circular(75.0)),
+            color: Colors.pink),
+      ),
+        Container(
+          height: 90.0,
+          decoration: BoxDecoration(
+              borderRadius:
+              BorderRadius.only(bottomRight: Radius.circular(65.0)),
+              color: Colors.pinkAccent),
+        ),
+        Padding(
+          padding: EdgeInsets.only(top: 30.0, left: 15.0),
+          child: Text(
+            'Event Setara.id',
+            style: TextStyle(
+                fontFamily: 'Montserrat',
+                fontSize: 45.0,
+                color: Colors.white,
+                fontWeight: FontWeight.bold),
+          ),
+        ),
+
+    ]
+    )
+    ]
+    ),
+        floatingActionButton: FloatingActionButton(onPressed: () {},
+    backgroundColor: Colors.pink,
+    child:
+          IconButton (
+           icon:Icon(Icons.home,color:Colors.white),
+          onPressed: () {
+             Navigator.of(context).push(
+               MaterialPageRoute(builder: (context){
+                 return Dashboard();
+               }
+               ),
+             );
+          }
+          ),
+    ),
+    floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+    bottomNavigationBar: BottomBar(),
+    );
+  }
+}
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82

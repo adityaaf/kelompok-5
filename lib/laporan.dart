@@ -16,6 +16,7 @@ class _LaporanState extends State<Laporan> {
       return MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Scaffold(
+<<<<<<< HEAD
           body: ListView(
             children: <Widget>[
               Stack(
@@ -48,10 +49,20 @@ class _LaporanState extends State<Laporan> {
 
                 ],
               ),
+=======
+          appBar: AppBar(
+            backgroundColor:Colors.pink,
+            title: Text("Laporan Pengaduan",style: TextStyle(
+                fontSize: 35.0,fontFamily: 'Montserrat',fontWeight: FontWeight.bold),),
+          ),
+          body: ListView(
+            children: <Widget>[
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: <Widget> [
                   RaisedButton(
+<<<<<<< HEAD
                       child: Text("Tambah Laporan",style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontFamily: 'Montserrat',
@@ -73,6 +84,19 @@ class _LaporanState extends State<Laporan> {
                         color: Colors.white
                       ),),
                       color: Colors.pinkAccent,
+=======
+                      child: Text("Tambah Laporan"),
+                      onPressed: (){
+                    setState(() {
+                      widgets.add(Text("Laporan Pengaduan" + counter.toString(),style: TextStyle(fontSize: 35),
+                      ));
+                      counter++;
+                    });
+                  }),
+
+                  RaisedButton(
+                      child: Text ("Hapus Laporan"),
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
                       onPressed: (){
                         setState(() {
                           widgets.removeLast();

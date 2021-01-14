@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'dart:io';
 import 'dart:async';
 import 'dart:convert';
@@ -7,6 +8,12 @@ import 'package:tugas_uts/dashboard.dart';
 import 'package:tugas_uts/main.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+=======
+import 'package:flutter/material.dart';
+import 'package:tugas_uts/buttom_bar.dart';
+import 'package:tugas_uts/dashboard.dart';
+import 'package:tugas_uts/main.dart';
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
 
 
 class EditProfile extends StatelessWidget {
@@ -14,13 +21,20 @@ class EditProfile extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+<<<<<<< HEAD
       title: "Edit Profil",
+=======
+      title: "Setting UI",
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
       home: EditProfilePage(),
     );
   }
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
 class EditProfilePage extends StatefulWidget {
   @override
   _EditProfilePageState createState() => _EditProfilePageState();
@@ -28,6 +42,7 @@ class EditProfilePage extends StatefulWidget {
 
 class _EditProfilePageState extends State<EditProfilePage> {
   bool showPassword = false;
+<<<<<<< HEAD
   TextEditingController _txtnama = new TextEditingController();
   TextEditingController _txtemail = new TextEditingController();
   TextEditingController _txtpassword = new TextEditingController();
@@ -164,11 +179,14 @@ class _EditProfilePageState extends State<EditProfilePage> {
   }
 
 
+=======
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.pinkAccent,
+<<<<<<< HEAD
         elevation: 5,
 
         leading:
@@ -178,15 +196,32 @@ class _EditProfilePageState extends State<EditProfilePage> {
               Navigator.of(context).push(
                 MaterialPageRoute(
                     builder: (context) {
+=======
+        elevation: 1,
+        leading:
+        IconButton(
+            icon: Icon(Icons.arrow_back_sharp, color:Colors.white),
+            onPressed: (){
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                    builder: (context){
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
                       return Dashboard();
                     }
                 ),
               );
             }
         ),
+<<<<<<< HEAD
       ),
       body: Container(
         padding: EdgeInsets.only(left: 15, top: 25, right: 16),
+=======
+
+      ),
+      body: Container(
+        padding: EdgeInsets.only(left: 16, top: 25, right: 16),
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
         child: GestureDetector(
           onTap: () {
             FocusScope.of(context).unfocus();
@@ -203,6 +238,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
               Center(
                 child: Stack(
                   children: [
+<<<<<<< HEAD
                     showImage(),
                     Positioned(
                       top: 155,
@@ -276,6 +312,58 @@ class _EditProfilePageState extends State<EditProfilePage> {
                 ),
               ),
 
+=======
+                    Container(
+                      width: 130,
+                      height: 130,
+                      decoration: BoxDecoration(
+                          border: Border.all(
+                              width: 4,
+                              color: Theme.of(context).scaffoldBackgroundColor),
+                          boxShadow: [
+                            BoxShadow(
+                                spreadRadius: 2,
+                                blurRadius: 10,
+                                color: Colors.pink.withOpacity(0.1),
+                                offset: Offset(0, 10))
+                          ],
+                          shape: BoxShape.circle,
+                          image: DecorationImage(
+                              fit: BoxFit.cover,
+                              image: NetworkImage(
+                                "https://cdn1-production-images-kly.akamaized.net/jY8pqabtApKPE9e3gDFUhHEdDzc=/1280x1280/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3140151/original/042169200_1590886210-Rahmawati_Kekeyi_0.jpg",
+                              ))),
+                    ),
+                    Positioned(
+                        bottom: 0,
+                        right: 0,
+                        child: Container(
+                          height: 40,
+                          width: 40,
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            border: Border.all(
+                              width: 4,
+                              color: Theme.of(context).scaffoldBackgroundColor,
+                            ),
+                            color: Colors.pink,
+                          ),
+                          child: Icon(
+                            Icons.edit,
+                            color: Colors.white,
+                          ),
+                        )),
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 35,
+                ),
+              buildTextField("Nama", "Kekey9", false),
+              buildTextField("E-mail", "kekey@gmail.com", false),
+              buildTextField("Password", "wwwkkk",true),
+              buildTextField("Alamat", "Jakarta", false),
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
               SizedBox(
                 height: 35,
               ),
@@ -284,6 +372,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
                 children: [
 
                   RaisedButton(
+<<<<<<< HEAD
                     onPressed: () async {
                       if (!_formKey.currentState.validate()) {
                         return;
@@ -302,6 +391,15 @@ class _EditProfilePageState extends State<EditProfilePage> {
                       // print(_email);
                       // print(_password);
                       // print(_address);
+=======
+                    onPressed: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(builder: (context){
+                          return Dashboard();
+                        }
+                        )
+                      );
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
                     },
                     color: Colors.pink,
                     padding: EdgeInsets.symmetric(horizontal: 50),
@@ -318,9 +416,14 @@ class _EditProfilePageState extends State<EditProfilePage> {
                   ),
                   RaisedButton(
                     onPressed: () {
+<<<<<<< HEAD
                       _data();
                       Navigator.of(context).push(
                           MaterialPageRoute(builder: (context) {
+=======
+                      Navigator.of(context).push(
+                          MaterialPageRoute(builder: (context){
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
                             return MyApp();
                           }
                           )
@@ -348,6 +451,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
     );
   }
 
+<<<<<<< HEAD
 
   chooseImageGalery() async {
         try {
@@ -482,4 +586,38 @@ class _EditProfilePageState extends State<EditProfilePage> {
         },
         );
     }
+=======
+  Widget buildTextField(
+      String labelText, String placeholder, bool isPasswordTextField) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 35.0),
+      child: TextField(
+        obscureText: isPasswordTextField ? showPassword : true,
+        decoration: InputDecoration(
+            suffixIcon: isPasswordTextField
+                ? IconButton(
+              onPressed: () {
+                setState(() {
+                  showPassword = !showPassword;
+                });
+              },
+              icon: Icon(
+                Icons.remove_red_eye,
+                color: Colors.grey,
+              ),
+            )
+                : null,
+            contentPadding: EdgeInsets.only(bottom: 3),
+            labelText: labelText,
+            floatingLabelBehavior: FloatingLabelBehavior.always,
+            hintText: placeholder,
+            hintStyle: TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
+              color: Colors.black,
+            )),
+      ),
+    );
+  }
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
 }

@@ -23,8 +23,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+<<<<<<< HEAD
   image_picker: ^0.6.7+17
   shared_preferences: ^0.5.12+4
+=======
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -32,10 +35,15 @@ dependencies:
   cupertino_icons: ^1.0.0
 
 dev_dependencies:
+<<<<<<< HEAD
 #  image_picker:
   flutter_test:
     sdk: flutter
   form_field_validator: ^1.0.1
+=======
+  flutter_test:
+    sdk: flutter
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -52,6 +60,7 @@ flutter:
   assets:
     - assets/background.jpg
     - assets/logo.png
+<<<<<<< HEAD
     - assets/demo.jpeg
     - assets/seminar.jpg
     - assets/sosialisasi.jpeg
@@ -63,6 +72,8 @@ flutter:
     - assets/waves.jpg
     - assets/setara.png
     - assets/adit.JPG
+=======
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

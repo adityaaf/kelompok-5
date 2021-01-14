@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:tugas_uts/asian.dart';
 import 'package:tugas_uts/dashboard.dart';
 import 'package:tugas_uts/buttom_bar.dart';
@@ -6,6 +7,10 @@ import 'package:tugas_uts/demo.dart';
 import 'package:tugas_uts/menlu.dart';
 import 'package:tugas_uts/stop.dart';
 
+=======
+import 'package:tugas_uts/dashboard.dart';
+import 'package:tugas_uts/buttom_bar.dart';
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
 
 class Berita extends StatefulWidget {
   @override
@@ -19,6 +24,7 @@ class _BeritaState extends State<Berita> {
       backgroundColor: Color(0xFFF9EFEB),
       body: ListView(
         children: <Widget>[
+<<<<<<< HEAD
           Stack(
             children: <Widget>[
               Container(
@@ -144,6 +150,41 @@ class _BeritaState extends State<Berita> {
 
         ],
       ),
+=======
+      Stack(
+      children: <Widget>[
+        Container(
+        height: 120.0,
+        decoration: BoxDecoration(
+            borderRadius:
+            BorderRadius.only(bottomRight: Radius.circular(75.0)),
+            color: Colors.pink),
+      ),
+        Container(
+          height: 90.0,
+          decoration: BoxDecoration(
+              borderRadius:
+              BorderRadius.only(bottomRight: Radius.circular(65.0)),
+              color: Colors.pinkAccent),
+        ),
+        Padding(
+          padding: EdgeInsets.only(top: 25.0, left: 15.0),
+          child: Text(
+            'Berita Setara.id',
+            style: TextStyle(
+                fontFamily: 'Montserrat',
+                fontSize: 45.0,
+                color: Colors.white,
+                fontWeight: FontWeight.bold),
+          ),
+        ),
+    ]
+    )
+    ]
+    ),
+
+
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
       floatingActionButton: FloatingActionButton(onPressed: () {},
         backgroundColor: Colors.pink,
         child:
@@ -158,6 +199,7 @@ class _BeritaState extends State<Berita> {
               );
             }
         ),
+<<<<<<< HEAD
 
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
@@ -271,3 +313,12 @@ class _BeritaState extends State<Berita> {
     }
   }
 }
+=======
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      bottomNavigationBar: BottomBar(),
+    );
+  }
+}
+
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82

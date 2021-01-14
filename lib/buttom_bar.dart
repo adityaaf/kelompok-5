@@ -97,4 +97,8 @@ class BottomBar extends StatelessWidget {
         )
     );
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> cf8ab92eeb751970e7e3d65a63c68bab1755dd82
